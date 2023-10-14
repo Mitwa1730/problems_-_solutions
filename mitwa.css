@@ -1,0 +1,50 @@
+/* author: Mitwa Patel, 000905034; 
+   date: 17th June, 2023  
+   
+   This file represents CSS properties required for the styling of the web page. */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(40, 82, 220);
+}
+
+#intro{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#solution {
+    padding-top: 6%;
+}
+
+#answer{
+    padding-top: 2%;
+    text-decoration: underline;
+}
+
+.top {
+    text-align: center;
+    margin-top: 2%;
+}
+
+footer {
+    margin-top: 6%;
+    padding: 2%;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
